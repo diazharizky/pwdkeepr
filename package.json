@@ -1,0 +1,11 @@
+{
+  "name": "pwdkeepr",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=25" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "sync-ext": "cp public/vault-crypto.js extension/vault-crypto.js"
+  }
+}
